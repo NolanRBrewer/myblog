@@ -102,7 +102,9 @@ theme: clean-blog
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: aws-s3             # The name of this plugin
+  region: us-east-1        # The region where your bucket is located
+  bucket: nolanblog        # The name of your bucket
 
 #Search
 search:
